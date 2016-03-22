@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <title> iorlova CV </title>
     <body>
         <header>
@@ -20,7 +21,7 @@
             reprehenderit in voluptate velit esse cillum dolore eu fugiat 
             nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </articke>
+        </article>
         <hr>
         <article>
             <p>Education</p>
@@ -38,6 +39,7 @@
                 <li>TernoPhoto - Photo Retoucher & Graphic Designer</li>
                 <li>Administrator of an apartment rent website</li>
                 <li>"Motor Sich" Machine-Building Factory - Senior operator</li>
+            </ul>
         </article>
         <hr>
         <article>
@@ -109,12 +111,42 @@
             <p>for_freak</p>
         </article>
         <br>
-        <form></form>
+        <fieldset>
+            <legend>Write me a message</legend>
+            <form action="contacts.js" method="post">
+            <label for="name">Name</label>
+                <input id="name" type="text" required placeholder="your name here">
+                <br>
+                <label for="uniqcode">Code</label>
+                <input id="uniqcode" type="text" 
+                    pattern="[0-9] {4}" title="four-digit uniq code"
+                    required placeholder="your uniq code">
+                <br>
+                <label for="email">Email</label>
+                <input id="email" type="text" required placeholder="your email here">
+                <br>
+                <p>Message</p>
+                <textarea name="message" cols="30" rows="5" required placeholder="massage"></textarea>
+                <br>
+                <input type="submit" value="Send message">
+            </form>
+        </fieldset>
         <hr>
         <footer>
             <br>
             <br>
-            <a href="">
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/fb.jpg" alt="fb" width="20"></a>
+            <br>
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/drive.png" alt="fb" width="20"></a>
+            <br>
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/github.png" alt="fb" width="20"></a>
+            <br>
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/gmail.ico" alt="fb" width="20"></a>
+            <br>
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/invision.png" alt="fb" width="20"></a>
+            <br>
+            <a href="https://www.facebook.com/for.freak"> <img src="footer/linkedin.png" alt="fb" width="20"></a>
+            <center><p><small>All rights and bla-bla-bla)))</small></p></center>
         </footer>
     </body>
 </html>
