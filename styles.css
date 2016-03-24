@@ -1,5 +1,10 @@
 body {
     display: block;
     margin: 8px;
-    
-}
+    }
+    header {
+        max-width: 1000px;
+        min-width: 300px;
+        height: 150px;
+        background-color:#98AFC7;
+        }
