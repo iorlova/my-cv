@@ -1,6 +1,6 @@
 @font-face{
-    font-family:MyFont;
-    src:'dark11.ttf';
+    font-family: myfont;
+    src: url(dark11.ttf);
 }
 body {
     display: block;
