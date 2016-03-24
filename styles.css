@@ -1,10 +1,39 @@
+@font-face{
+    font-family:MyFont;
+    src:'dark11.ttf';
+}
 body {
     display: block;
     margin: 8px;
-    }
+}
     header {
         max-width: 1000px;
         min-width: 300px;
         height: 150px;
         background-color:#98AFC7;
-        }
+    }
+    #aboutme{
+        max-width: 1000px;
+        min-width: 300px;
+        height: 300px;
+        background-color:#E8FFFF;
+    }
+    #education{
+        width: 200px;
+        height: 400px;
+        background-color: #5C738B;
+        float:left;
+    }
+     #experience{
+        width: 200px;
+        height: 400px;
+        background-color: #526981;
+        float:left;
+    }
+    #languages{
+        width: 200px;
+        height: 400px;
+        background-color: #5C738B;
+        float:left;
+        
+    }
