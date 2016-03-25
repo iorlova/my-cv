@@ -1,7 +1,7 @@
-@font-face{
+/*@font-face {
     font-family: myfont;
-    src: url(dark11.ttf);
-}
+    src: local("dark.ttf");
+}*/
 body {
     display: block;
     margin: 8px;
@@ -19,19 +19,18 @@ body {
         background-color:#E8FFFF;
     }
     #education{
-        width: 200px;
         height: 400px;
         background-color: #5C738B;
         float:left;
+        width:33%;
     }
      #experience{
-        width: 200px;
         height: 400px;
         background-color: #526981;
         float:left;
+        width:33%;
     }
     #languages{
-        width: 200px;
         height: 400px;
         background-color: #5C738B;
         float:left;
