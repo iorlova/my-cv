@@ -3,8 +3,9 @@
     <head>
         <meta charset="utf-8">
         <title> iorlova CV </title>
-        <link rel="stylesheet" type="text/css" href="css/normalize.css">
-        <link rel="stylesheet" type="taxt/css" href="css/styles.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="image" type="image/jpg" href="background.jog">
     </head>
     <body>
         <header>
@@ -16,7 +17,7 @@
         </header>
         <hr>
         <artickle id="aboutme">
-            <img src="aboutme/profile.jpg" alt="my photo">
+            <img id="profile" src="aboutme/profile.jpg" alt="my photo">
             <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris 
@@ -51,6 +52,7 @@
                 <li>Russian - Native</li>
             </ul>
         </artickle>
+        <br>
         <hr>
         <artickle id="skills">
             <p>Skills</p>
@@ -80,7 +82,7 @@
             <img src="skills/progress-bar.png" alt="progress-bar.png" width="50"/>
         </artickle>
         <hr>
-        <artickle>
+        <artickle id="projects">
             <p>Projects</p>
             <section id="webmobile">
                 <p>Web & Mobile</p>
@@ -112,7 +114,7 @@
             <p>for_freak</p>
         </artickle>
         <br>
-        <fieldset id="message">
+        <fieldset class="message">
             <legend>Write me a message</legend>
             <form action="contacts.js" method="post">
             <label for="name">Name</label>
