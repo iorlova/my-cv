@@ -1,0 +1,177 @@
+@font-face {
+  font-family: roboto;
+  src: url(../roboto/Roboto-Thin.ttf);
+}
+
+@font-face {
+    font-family: avant;
+    src: url(../Avant.otf);
+}
+
+@font-face {
+    font-family: beast;
+    src: url(../Beast.ttf);
+}
+
+@font-face {
+    font-family: lil;
+    src: url(../lil.ttf);
+}
+
+
+body {
+    font-family: lil;
+    font-size: x-large;
+    display: block;
+    margin: 8px;
+    background-image: url('../background.jpg');
+    background-size: 100%;
+    
+    color: white;
+    
+}
+* a{
+    text-decoration: none;
+}
+hr {
+    margin: 10 auto;
+    clear: both;
+}
+
+.contact-me {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content {
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 58px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+#my-skills div {
+    width: 200px;
+}
+#my-skills {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.info article {
+    width: 33%;
+    transition: width .3s ease;
+}
+.info p, ul{
+    padding-left: 30px;
+}
+header {
+    position: fixed;
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+    top: 0;
+    height: 50px;
+    background-color: #98AFC7;
+    opacity: 0.2;
+    text-align: center;
+    box-shadow: 0 0 5px black;
+}
+header a {
+    font-family: lil;
+    font-size: x-large;
+    margin-top: 15px;
+    float: left;
+    width: 20%;
+    color: white;
+}
+header a:hover {
+    color: grey;
+}
+
+
+* article{
+    max-width: 960px;
+        
+} 
+
+#aboutme img{
+    margin: 25px;
+    float: left;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+    
+#education{
+    background-color: #5C738B;
+}
+#experience{
+    background-color: #526981;
+}
+#languages{
+    background-color: #5C738B;
+}
+#my-skills div{
+    height: 200px;
+    width: 200px;
+    text-align: center;
+}
+
+
+
+.message {
+    float: right;
+    }
+.message input[type="text"],
+.message input[type="email"],
+.message textarea {
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
+#contacts div{
+    margin-top: 30px;
+    height: 30px;
+}
+.pin {
+    padding-left: 25px;
+    background: url(../contacts/pin.png) no-repeat left center transparent;
+    background-size: 20px;
+}
+.phone {
+    padding-left: 25px;
+    background: url(../contacts/phone.png) no-repeat left center transparent;
+    background-size: 20px;
+}
+.gmail {
+    padding-left: 25px;
+    background: url(../contacts/gmail.ico) no-repeat left center transparent;
+    background-size: 20px;
+}
+.skype {    
+    padding-left: 25px;
+    background: url(../contacts/skype.png) no-repeat left center transparent;
+    background-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 480px)  {
+    .info {
+        flex-direction: column;
+    }
+    .info article {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .info article:last-of-type {
+        margin-bottom: 0
+    }
+}
