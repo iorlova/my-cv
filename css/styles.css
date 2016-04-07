@@ -1,19 +1,4 @@
 @font-face {
-  font-family: roboto;
-  src: url(../roboto/Roboto-Thin.ttf);
-}
-
-@font-face {
-    font-family: avant;
-    src: url(../Avant.otf);
-}
-
-@font-face {
-    font-family: beast;
-    src: url(../Beast.ttf);
-}
-
-@font-face {
     font-family: lil;
     src: url(../lil.ttf);
 }
@@ -34,7 +19,7 @@ body {
     text-decoration: none;
 }
 hr {
-    margin: 10 auto;
+    margin: 20px auto;
     clear: both;
 }
 
@@ -77,8 +62,7 @@ header {
     margin: 0 auto;
     top: 0;
     height: 50px;
-    background-color: #98AFC7;
-    opacity: 0.2;
+    background-color: rgba(152,175,199,0.3);
     text-align: center;
     box-shadow: 0 0 5px black;
 }
@@ -161,7 +145,15 @@ header a:hover {
     background-size: 20px;
 }
 
+#prn-dwn img {
+    opacity: 0.5;
 
+    
+}
+#prn-dwn {
+    display: flex;
+    justify-content: space-around;
+}
 
 @media only screen and (max-width: 480px)  {
     .info {
