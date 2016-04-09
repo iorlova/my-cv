@@ -7,6 +7,7 @@
 body {
     font-family: lil;
     font-size: x-large;
+    letter-spacing: 0.5px;
     display: block;
     margin: 8px;
     background-image: url('../background.jpg');
@@ -38,10 +39,9 @@ hr {
     display: flex;
     justify-content: space-between;
 }
-#my-skills div {
-    width: 200px;
-}
-#my-skills {
+
+#graphic-skills,
+#code-skills {
     display: flex;
     justify-content: space-between;
     
@@ -90,16 +90,24 @@ header a:hover {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    
+}
+#aboutme p{
+    text-indent: 10px;
 }
     
 #education{
-    background-color: #5C738B;
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+    
 }
 #experience{
-    background-color: #526981;
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
 }
 #languages{
-    background-color: #5C738B;
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
 }
 #my-skills div{
     height: 200px;
@@ -107,11 +115,28 @@ header a:hover {
     text-align: center;
 }
 
+.contact-me{
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+}
+footer {
+    position: absolute;
+    width: 960px;
+    padding-top: 10px;
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+}
 
 
-.message {
-    float: right;
-    }
+.contact-me{
+    display: flex;
+    justify-content: space-around;
+}
+.message{
+    margin-bottom: 10px;
+}
+
 .message input[type="text"],
 .message input[type="email"],
 .message textarea {
@@ -121,7 +146,7 @@ header a:hover {
     outline: none;
 }
 #contacts div{
-    margin-top: 30px;
+    margin-top: 40px;
     height: 30px;
 }
 .pin {
