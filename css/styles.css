@@ -32,7 +32,7 @@ hr {
 .content {
     max-width: 960px;
     margin: 0 auto;
-    margin-top: 58px;
+    margin-top: 70px;
 }
 
 .info {
@@ -40,7 +40,6 @@ hr {
     justify-content: space-between;
 }
 
-#graphic-skills,
 #code-skills {
     display: flex;
     justify-content: space-between;
@@ -65,6 +64,7 @@ header {
     background-color: rgba(152,175,199,0.3);
     text-align: center;
     box-shadow: 0 0 5px black;
+    z-index: 50;
 }
 header a {
     font-family: lil;
@@ -83,9 +83,10 @@ header a:hover {
     max-width: 960px;
         
 } 
-
 #aboutme img{
-    margin: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-bottom: 25px;
     float: left;
     width: 200px;
     height: 200px;
@@ -109,12 +110,34 @@ header a:hover {
     background-color: rgba(92,115,139,0.5);
     box-shadow: 0 0 5px black;
 }
-#my-skills div{
-    height: 200px;
-    width: 200px;
-    text-align: center;
+#skills{
+    padding-top: 50px;
 }
-
+.a1 {
+    background-color: rgba(0,0,0,0.5);
+    float: left;
+    width: 100px;
+    height: 200px;
+    text-align: center;
+    /*display: flex;
+    justify-content: space-between;*/
+}
+/*.c100 {
+    position: absolute;
+    bottom: 0;
+} */
+/*#graphic-skills > div: first-child {
+    background-color: rgba(0,0,0,0.5);
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}*/
+#projects{
+    padding-top: 50px;
+}
+#contact{
+    padding-top: 50px;
+}
 .contact-me{
     background-color: rgba(92,115,139,0.5);
     box-shadow: 0 0 5px black;
@@ -127,7 +150,15 @@ footer {
     box-shadow: 0 0 5px black;
     text-align: center;
 }
+footer p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
 
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
 
 .contact-me{
     display: flex;
