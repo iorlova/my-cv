@@ -113,16 +113,16 @@ header a:hover {
 #skills{
     padding-top: 50px;
 }
-.a1 {
+.skill {
     background-color: rgba(0,0,0,0.5);
     float: left;
-    width: 100px;
+    width: 200px;
     height: 200px;
     text-align: center;
     /*display: flex;
     justify-content: space-between;*/
 }
-/*.c100 {
+/**.c100 {
     position: absolute;
     bottom: 0;
 } */
