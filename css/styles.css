@@ -3,7 +3,6 @@
     src: url(../lil.ttf);
 }
 
-
 body {
     font-family: lil;
     font-size: x-large;
@@ -12,10 +11,11 @@ body {
     margin: 8px;
     background-image: url('../background.jpg');
     background-size: 100%;
-    
     color: white;
+    text-shadow: 0 0 5px black;
     
 }
+
 * a{
     text-decoration: none;
 }
@@ -24,35 +24,15 @@ hr {
     clear: both;
 }
 
-.contact-me {
-    display: flex;
-    justify-content: space-between;
-}
+* article{
+    max-width: 960px;
+        
+} 
 
 .content {
     max-width: 960px;
     margin: 0 auto;
     margin-top: 70px;
-}
-
-.info {
-    display: flex;
-    justify-content: space-between;
-}
-
-#code-skills {
-    display: flex;
-    justify-content: space-between;
-    
-}
-
-
-.info article {
-    width: 33%;
-    transition: width .3s ease;
-}
-.info p, ul{
-    padding-left: 30px;
 }
 header {
     position: fixed;
@@ -75,14 +55,22 @@ header a {
     color: white;
 }
 header a:hover {
-    color: grey;
+    color: rgb(62, 80, 92);;
+    text-shadow: none;
+}
+.info {
+    display: flex;
+    justify-content: space-between;
 }
 
+.info article {
+    width: 33%;
+    transition: width .3s ease;
+}
+.info p, ul{
+    padding-left: 30px;
+}
 
-* article{
-    max-width: 960px;
-        
-} 
 #aboutme img{
     margin-left: 25px;
     margin-right: 25px;
@@ -100,82 +88,88 @@ header a:hover {
 #education{
     background-color: rgba(92,115,139,0.5);
     box-shadow: 0 0 5px black;
-    
 }
+
 #experience{
     background-color: rgba(92,115,139,0.5);
     box-shadow: 0 0 5px black;
 }
+
 #languages{
     background-color: rgba(92,115,139,0.5);
     box-shadow: 0 0 5px black;
 }
+
 #skills{
     padding-top: 50px;
 }
+#skills>p {
+    padding-left: 30px;
+}
 .skill {
-    background-color: rgba(0,0,0,0.5);
+    
     float: left;
-    width: 200px;
+    width: 16%;
     height: 200px;
     text-align: center;
-    /*display: flex;
-    justify-content: space-between;*/
+    margin-bottom: 20px;
+    
 }
-/**.c100 {
+.skill p{
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+    
+}
+/*.skill{
+    position: relative;
+}
+.c100 {
     position: absolute;
     bottom: 0;
 } */
-/*#graphic-skills > div: first-child {
-    background-color: rgba(0,0,0,0.5);
-    float: left;
+/*.c100.p50.small {
+    margin: 0 auto;
+}*/
+.c100 span{
+    text-shadow: none;
+    color: black !important;
+}
+#my-projects{
+    padding-top: 50px;
+}
+
+#my-projects>p {
+    padding-left: 30px;
+}
+.projects{
+    text-align: center;
     display: flex;
     justify-content: space-between;
-}*/
-#projects{
-    padding-top: 50px;
+}
+.projects div{
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+}
+.projects img {
+    width: 100%;
+    box-shadow: 0 0 5px black;
+    
+}
+.projects section {
+    width: 33%;
+    transition: width .3s ease;
+}
+
+.contact-me{
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+    display: flex;
+    justify-content: space-around;
 }
 #contact{
     padding-top: 50px;
 }
-.contact-me{
-    background-color: rgba(92,115,139,0.5);
-    box-shadow: 0 0 5px black;
-}
-footer {
-    position: absolute;
-    width: 960px;
-    padding-top: 10px;
-    background-color: rgba(92,115,139,0.5);
-    box-shadow: 0 0 5px black;
-    text-align: center;
-}
-footer p {
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-}
 
-.projects{
-    display: flex;
-    justify-content: space-between;
-}
-
-.contact-me{
-    display: flex;
-    justify-content: space-around;
-}
-.message{
-    margin-bottom: 10px;
-}
-
-.message input[type="text"],
-.message input[type="email"],
-.message textarea {
-    padding: 5px;
-    border: 1px solid transparent;
-    border-radius: 5px;
-    outline: none;
-}
 #contacts div{
     margin-top: 40px;
     height: 30px;
@@ -200,16 +194,39 @@ footer p {
     background: url(../contacts/skype.png) no-repeat left center transparent;
     background-size: 20px;
 }
+.message{
+    margin-bottom: 10px;
+}
 
+.message input[type="text"],
+.message input[type="email"],
+.message textarea {
+    padding: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    outline: none;
+}
 #prn-dwn img {
     opacity: 0.5;
-
-    
 }
 #prn-dwn {
     display: flex;
     justify-content: space-around;
 }
+footer {
+    position: absolute;
+    width: 960px;
+    padding-top: 10px;
+    background-color: rgba(92,115,139,0.5);
+    box-shadow: 0 0 5px black;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
 
 @media only screen and (max-width: 480px)  {
     .info {
