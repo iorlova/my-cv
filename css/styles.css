@@ -155,9 +155,13 @@ header a:hover {
     box-shadow: 0 0 5px black;
     
 }
+.projects img:hover {
+    opacity: 0.2;
+    box-shadow: 0 0 5px rgb(92,115,139);
+}
 .projects section {
     width: 33%;
-    transition: width .3s ease;
+   /* transition: width .3s ease;*/
 }
 
 .contact-me{
